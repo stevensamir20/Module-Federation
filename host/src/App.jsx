@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import Button from "remoteApp/Button";
-import { HeaderOne, HeaderTwo } from "remoteApp/HeaderOne";
 import { Add, Subtract, Multiply, Divide } from "remoteApp/Utils";
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
 
   return (
     <div className="App">
-      <HeaderOne /> <HeaderTwo />
       <Button />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

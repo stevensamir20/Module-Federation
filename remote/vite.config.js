@@ -10,9 +10,8 @@ export default defineConfig({
       name: "remote",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/Button", // Remote Modules
-        "./Utils": "./src/Utils", // Shared Modules
-        "./HeaderOne": "./src/Headers", // Exposed Modules
+        "./Button": "./src/Button",
+        "./Utils": "./src/Utils",
       },
       shared: ["react", "react-dom"],
     }),
